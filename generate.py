@@ -102,7 +102,7 @@ def flatten(l):
       _.append(item)
   return _
 
-def read_content(filepth):
+def read_content(filepath):
   content = ''
   if not exists(filepath):
     return ''
@@ -117,7 +117,6 @@ for api in APIS:
   api_id = api['id']
 
   codes = flatten(api['languages'])
-
 
 
   def normalize(code):
@@ -212,9 +211,9 @@ for language in LANGUAGES:
     'title': name,
     'description': f'Machine translation for { name }',
     'code': code,
+    **language,
     'family': family,
     'supported_apis': supported_apis,
-    'lan': language,
   }
 
   slug = slugify(name)
@@ -348,7 +347,7 @@ for api in APIS:
 print('Codes to add to languages.md')
 
 for code, count in sorted(UNLISTED_LANGUAGES.items(), key=lambda x: x[1] * 10 - len(x[0]), reverse=True):
-  text = code + ': ' + str(count)
+  text = f"{code}: {str(count)}"
   if count > 1 or len(code) == 2:
     text = '**' + text + '**'
   base_code = code.split('-')[0].lower()
