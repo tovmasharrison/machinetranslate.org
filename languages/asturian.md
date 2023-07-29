@@ -5,9 +5,23 @@ layout: language
 title: Asturian
 description: Machine translation for Asturian
 code: ast
+codes:
+- ast
+names:
+- Asturian
+- Bable
 family:
 - slug: romance
   name: Romance
+scripts:
+- Latn
+typology:
+  word_order:
+  - SVO
+  morphosyntax:
+  - inflected
+territories:
+- es
 supported_apis:
 - id: apertium
   name: Apertium
@@ -18,23 +32,6 @@ supported_apis:
 - id: alibaba
   name: Alibaba Translate
   supported_language_count: 212
-lan:
-  codes:
-  - ast
-  names:
-  - Asturian
-  - Bable
-  family:
-  - roa
-  scripts:
-  - Latn
-  typology:
-    word_order:
-    - SVO
-    morphosyntax:
-    - inflected
-  territories:
-  - es
 
 ---
 

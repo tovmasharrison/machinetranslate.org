@@ -5,9 +5,30 @@ layout: language
 title: Albanian
 description: Machine translation for Albanian
 code: sq
+codes:
+- sq
+- sqi
+- alb
+names:
+- Albanian
 family:
 - slug: indo-european
   name: Indo-European
+scripts:
+- Latn
+- Elba
+typology:
+  word_order:
+  - SVO
+  morphosyntax:
+  - fusional
+territories:
+- al
+- mk
+- sr
+- gr
+- me
+- it
 supported_apis:
 - id: lilt
   name: Lilt
@@ -57,30 +78,6 @@ supported_apis:
 - id: niutrans
   name: Niutrans
   supported_language_count: 381
-lan:
-  codes:
-  - sq
-  - sqi
-  - alb
-  names:
-  - Albanian
-  family:
-  - ine
-  scripts:
-  - Latn
-  - Elba
-  typology:
-    word_order:
-    - SVO
-    morphosyntax:
-    - fusional
-  territories:
-  - al
-  - mk
-  - sr
-  - gr
-  - me
-  - it
 
 ---
 

@@ -5,9 +5,25 @@ layout: language
 title: Kyrgyz
 description: Machine translation for Kyrgyz
 code: ky
+codes:
+- ky
+- kir
+names:
+- Kyrgyz
 family:
 - slug: turkic
   name: Turkic
+scripts:
+- Arab
+- Cyrl
+- Latn
+typology:
+  word_order:
+  - SOV
+  morphosyntax:
+  - agglutinative
+territories:
+- kg
 supported_apis:
 - id: promt
   name: PROMT
@@ -42,25 +58,6 @@ supported_apis:
 - id: niutrans
   name: Niutrans
   supported_language_count: 381
-lan:
-  codes:
-  - ky
-  - kir
-  names:
-  - Kyrgyz
-  family:
-  - trk
-  scripts:
-  - Arab
-  - Cyrl
-  - Latn
-  typology:
-    word_order:
-    - SOV
-    morphosyntax:
-    - agglutinative
-  territories:
-  - kg
 
 ---
 

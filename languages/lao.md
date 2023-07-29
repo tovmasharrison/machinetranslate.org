@@ -5,9 +5,23 @@ layout: language
 title: Lao
 description: Machine translation for Lao
 code: lo
+codes:
+- lo
+- lao
+names:
+- Lao
 family:
 - slug: tai
   name: Tai
+scripts:
+- Laoo
+typology:
+  word_order:
+  - SVO
+  morphosyntax:
+  - isolating
+territories:
+- la
 supported_apis:
 - id: yandex
   name: Yandex Translate
@@ -36,23 +50,6 @@ supported_apis:
 - id: niutrans
   name: Niutrans
   supported_language_count: 381
-lan:
-  codes:
-  - lo
-  - lao
-  names:
-  - Lao
-  family:
-  - tai
-  scripts:
-  - Laoo
-  typology:
-    word_order:
-    - SVO
-    morphosyntax:
-    - isolating
-  territories:
-  - la
 
 ---
 

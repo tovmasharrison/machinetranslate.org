@@ -5,9 +5,25 @@ layout: language
 title: Mongolian
 description: Machine translation for Mongolian
 code: mn
+codes:
+- mn
+- mon
+names:
+- Mongolian
 family:
 - slug: mongolic
   name: Mongolic
+scripts:
+- Cyrl
+- Mong
+- Phag
+typology:
+  word_order:
+  - SOV
+  morphosyntax:
+  - agglutinative
+territories:
+- mn
 supported_apis:
 - id: textra
   name: TexTra
@@ -45,25 +61,6 @@ supported_apis:
 - id: niutrans
   name: Niutrans
   supported_language_count: 381
-lan:
-  codes:
-  - mn
-  - mon
-  names:
-  - Mongolian
-  family:
-  - xgn
-  scripts:
-  - Cyrl
-  - Mong
-  - Phag
-  typology:
-    word_order:
-    - SOV
-    morphosyntax:
-    - agglutinative
-  territories:
-  - mn
 
 ---
 
