@@ -251,7 +251,7 @@ lsi: false
 incremental: true
 
 # Build settings
-# Note that .files are excluded by default.
+# Note that .files are excluded by default. 
 exclude:
   - .bundle
   - README.md
