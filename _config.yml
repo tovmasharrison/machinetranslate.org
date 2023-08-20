@@ -257,7 +257,7 @@ exclude:
   - README.md
   - generate.py
   - .sass-cache/
-  - .jekyll-cache/
+  - .jekyll-cache/   
   - gemfiles/
   - Gemfile
   - Gemfile.lock

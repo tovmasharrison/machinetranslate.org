@@ -33,4 +33,4 @@ install_if -> { RUBY_PLATFORM =~ %r!mingw|mswin|java! } do
   gem 'tzinfo-data'
 end
 
-gem "nokogiri", ">= 1.6.7.rc"
+gem "nokogiri", ">= 1.6.7.rc"          
