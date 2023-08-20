@@ -276,7 +276,7 @@ DEPENDENCIES
   html-proofer
   jekyll-feed (~> 0.12)
   jekyll-include-cache
-  jekyll-redirect-from
+  jekyll-redirect-from    
   jekyll-seo-tag
   nokogiri (>= 1.6.7.rc)
   tzinfo (~> 1.2)
