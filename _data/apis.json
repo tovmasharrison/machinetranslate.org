@@ -6329,7 +6329,8 @@
             "speech",
             "text"
         ],
-        "self-serve": false
+        "self-serve": false,
+        "active": false
     },
     {
         "name": "Lilt",
@@ -7375,7 +7376,8 @@
         "inputs": [
             "text"
         ],
-        "self-serve": false
+        "self-serve": false,
+        "active": false
     },
     {
         "name": "Niutrans",
@@ -7808,7 +7810,8 @@
         "inputs": [
             "text"
         ],
-        "self-serve": false
+        "self-serve": false,
+        "active": false
     },
     {
         "name": "Omniscien Technologies",
